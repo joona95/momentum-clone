@@ -59,3 +59,7 @@ h2 {
 .finish-todo {
     text-decoration: line-through white;
 }
+
+#weather {
+    padding: 10px 10px 10px 10px;
+}
