@@ -32,6 +32,18 @@ input::placeholder {
     transform: translate(-50%, -50%);
 }
 
+button {
+    background: none;
+    border-color: white;
+    margin: 2px;
+    color: white;
+    border-style: solid;
+}
+
+ul {
+    list-style: none;
+}
+
 h1 {
     font-size: 80px;
 }
@@ -44,3 +56,6 @@ h2 {
     display: none;
 }
 
+.finish-todo {
+    text-decoration: line-through white;
+}
