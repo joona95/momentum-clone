@@ -1,11 +1,5 @@
 import { API_KEY } from "./const.js";
 
-let weatherIcons = null;
-fetch("../icons.json").then(res => {
-    return res.json();
-}).then(data => {weatherIcons = data;});
-console.log(weatherIcons);
-
 function onGeoSuccess(position){
     const lat = position.coords.latitude;
     const lon = position.coords.longitude;
